@@ -87,3 +87,4 @@ def discrimination(prob,outcome,n_bins=10):
         # Squared distance between true and base times num of obs
         d += np.sum(in_bin) * ((true_bin_prob - base_prob) ** 2)
     return d / len(prob)
+# agreed with outcome. really insighful.
